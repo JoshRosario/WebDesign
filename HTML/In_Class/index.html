@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!-- Title tag is required. The title shows up in the browser tool bar/tab, search engine results, and bookmarks. -->
+		<title>My First HTML Page</title>
+		<!-- charset attribute specific character encoding for the html document, failure to do this may result in wonky font rendering. -->
+		<meta charset="UTF-8"/>
+		<!-- some optional meta tags, they help with SEO -->
+		<meta name="description" content="A sample description for the search engines"/>
+		<meta name="keywords" content="HTML,CSS,tutorial"/>
+		<meta name="author" content="your name or company name"/>
+		<!-- this is now where we would link to external/internal scrippt files, or links to css docs -->
+	</head>
+
+	<body>
+
+	<p>This is a page with some basic HTML elements. We will update as the tutorial progresses.</p>
+	<hr id="top">
+	<!-- Header tags h1-h6 and h1 is the most important and there should only be one per page -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+
+	<p>This is a paragraph.</p>
+	<p><strong>This is another paragraph. But this sentence is bold because it is more important content wise and is wrapped in a strong tag.</strong></p>
+	<p>This is yet another paragraph. This time we wrapped<em>These Words</em> in an em tag.</p>
+	<p>This is another paragraph <br /> with <br /> line <br /> breaks.</p>
+
+	<p>This paragraph has some <small>small text</small> in it. </p>
+
+	<!-- ordered list -->
+	<p>This is an ordered list</p>
+	<ol>
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ol>
+
+		<!-- unordered list -->
+	<p>This is an unordered list</p>
+	<ul>
+		<li>item 1</li>
+		<li>item 2</li>
+		<li>item 3</li>
+	</ul>
+
+	<p>here is a sample image tag. This is a self closing tag and has a source attribute.</p>
+
+	<!-- Use alt for alternative text descriptions and titles for image title. -->
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/440px-Hausziege_04.jpg"/ alt="Brown goat pic from google image reults. Hard coded URL." title="Brown Goat">
+
+	<img src="img/goat.jpeg"/ alt="Billy goat with local URL. we use /foldernames/file.names just like in terminal" title="Billy Goat">
+	<hr>
+	<br>
+
+	<!-- Anchor Tags -->
+	<a href="https://www.google.com" target="_blank">This anchor tag will open a link to goodgle in a new window.</a>
+
+	<a href="#top">This link will jump to the hr element at the top of the page. This is a named anchor.</a>
+
+	<a href="img/goat.jpeg">This will link to another file inside our site/server.</a>
+
+	<br><br>
+
+
+	</body>
+
+</html>

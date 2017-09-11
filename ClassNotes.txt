@@ -1,0 +1,11 @@
+Class notes
+
+9/11:
+all html has a head and body.
+everything is nested.
+<em> creates italics, <strong> bolds texts.
+heading go from <h1> to <h6>.
+for anchors most of it happens in the opening tag.
+href= where you want to go.
+attribute is a special code that enhances or modifies a tag.
+mka esure everything that you write in code looks nice.
