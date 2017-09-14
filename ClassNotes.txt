@@ -9,3 +9,13 @@ for anchors most of it happens in the opening tag.
 href= where you want to go.
 attribute is a special code that enhances or modifies a tag.
 mka esure everything that you write in code looks nice.
+
+9/13:
+Always do sitemap first!
+Category/sub-category breakdown as an example
+WWAD, what would amazon do
+A wireframe is a schematic or blueprint, a visual guide or skeletal framework of a website
+Focus on organization and not asthetics
+Jumping off point for client approval, user testing, back end developers, front end devs, and designers
+div is a block element, span is an inline element
+Block takes up all the space while inline only takes as much space as needed.
