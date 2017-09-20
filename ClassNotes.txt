@@ -19,3 +19,14 @@ Focus on organization and not asthetics
 Jumping off point for client approval, user testing, back end developers, front end devs, and designers
 div is a block element, span is an inline element
 Block takes up all the space while inline only takes as much space as needed.
+
+9/20:
+CSS is a simple mechanism for adding styles to web documents
+Value seperated by colon, always end with semi colon
+Local-confined to a single element
+Internal-affect elements in an entire page
+External-can affect multiple pages
+Local>Internal>External
+Element redefines the look of a specific tag
+Class selector can be applied to any tag
+ID Selector can be applied to a single element on a page
