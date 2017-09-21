@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout 1 header-footer-sidebar using pixels</title>
+	<style type="text/css">
+		/*group selectors, same styles, different tags*/
+		div, header, footer, main, article, section, aside {
+			background-color: rgba(0,0,100,0.2);
+			min-height: 100px;
+		}
+
+		div.wrapper {
+			width: 900px;
+			/*you can center a dic within the brower using margin 0 auto*/
+			margin: 0 auto;
+		}
+
+		article {
+			width: 600px;
+			float: left;
+			margin:10px;
+			width: 580px;
+			padding: 10px;
+			width: 560px;
+		}
+
+		aside {
+			width: 300px;
+			min-height: 600px;
+			margin: 10px;
+			float: left;
+			width: 280px;
+		}
+		/*when we are done floating elements we have to clear*/
+		.clear {
+			clear: both;
+			height: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			a header element pretend im the main nav...
+		</header>
+		<main>
+			<h1>Main Content Section, heading elements display block</h1>
+		<article>
+			<h2>An article with 3 sections</h2>
+			<section>
+				<h3>Section 1</h3>
+			</section>
+			<section>
+				<h3>Section 2</h3>
+			</section>
+			<section>
+				<h3>Section 3</h3>
+			</section>
+		</article>
+		<aside>
+			<h2>Sidebar</h2>
+		</aside>
+		<!-- clear out our wrapping div being our main tag wraps around. we will discuss several clear fixes and alternatives next week! -->
+		<br class="clear">
+		</main>
+		<footer>
+			<h3>Some footer text. maybe social media links some day...</h3>
+		</footer>
+	</div>
+</body>
+</html>
