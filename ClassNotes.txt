@@ -30,3 +30,9 @@ Local>Internal>External
 Element redefines the look of a specific tag
 Class selector can be applied to any tag
 ID Selector can be applied to a single element on a page
+
+9/25:
+Anchor tags by default display inline
+We usually want ehm to behave like blocks though
+Most of the time use 2 colons for pseudo tag selectors
+In hover only use 1 colon
